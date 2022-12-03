@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-puts 'seed'
+puts "📃 Seeding data..."
 
 10.times do
     Power.create(
@@ -30,4 +30,4 @@ end
     )
 end
 
-puts 'end'
+puts "✅ Done seeding"
